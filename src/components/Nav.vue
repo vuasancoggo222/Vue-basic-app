@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="mt-[25px] w-[75%] mb-[15px] shadow-lg shadow-cyan-200/20 opacity-80 mt-3 rounded-md nav ml-[30px] border-solid border-2 border-sky-500 pb-[25px] bg-indigo-200">
+    <div class="mt-[25px] w-[75%] mb-[15px] shadow-lg shadow-cyan-200/20 opacity-80 mt-3 rounded-md nav ml-[30px] border-solid border-2 border-sky-500 pb-[25px] bg-indigo-400">
         <nav>
             <ul>
                 <li><router-link to="/">Home</router-link></li>
