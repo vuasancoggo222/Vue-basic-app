@@ -23,7 +23,7 @@ const store = createStore({
                 console.log(data);
                 commit("setProducts",data)
             } catch (error) {
-                console.log(error);
+                console.log('something wrong');
                 commit('setError',error)
             }
         }
