@@ -5,6 +5,7 @@ import NotFound from '../pages/404.vue'
 import AboutPage from "../pages/AboutPage.vue"
 import DashboardPage from "../pages/admin/Dashboard.vue"
 import DetailPage from '../pages/DetailPage.vue'
+import ProductsManagementPage from '../pages/admin/ProductsManagement.vue'
 const routes = [
     {
         path: "/",
@@ -40,7 +41,12 @@ const routes = [
         name :'dashboard-route',
         component: DashboardPage
     },
-   
+    {
+        path:"/admin/products",
+        name: 'products-admin-route',
+        component: ProductsManagementPage
+    },
+
     {
         path : "/:pathMath(.*)*",
         component : NotFound
